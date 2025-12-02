@@ -3,15 +3,15 @@ Each action affects the pet’s hunger, happiness, and cleanliness levels.
 If the wrong action is chosen at the wrong time, the pet's condition worsens, making the game more challenging and realistic.
 
 The aim is to keep your pet healthy, happy, and alive for as long as possible.
-How it works
- the user has to choose one of the options to win
+# How the game works:
+ the user has to choose one of the options to win-
 
-⚠️ Wrong choices decrease pet’s stats
+⚠️ Wrong choices decrease pet’s stats and if your poinnts comes to zero the game ends and user loses
 
-🔄 Loop-based continuous gameplay
+🔄 Loop-based continuous gameplay till score is 100(win) or 0(lose)
 
 😶‍🌫️ Pet shows random reactions & conditions
-
+ 
 🧠 Game Logic (How It Works)
 1. Pet Stats
 
@@ -76,8 +76,6 @@ Choose wrong reactions
 
 Influence mood
 
-Create unpredictability
-
 This mimics real pet behaviour.
 
 5. Conditions & Warnings
@@ -89,10 +87,7 @@ Playing when pet is starving → hunger decreases further
 Feeding when pet wants to play → happiness decreases
 
 Cleaning when pet is already clean → no effect or negative reaction
-
-
-
- Concepts Used (C Language)
+# Concepts Used (C Language):
 
 This game demonstrates:
 
@@ -103,5 +98,7 @@ if-else decision making
 switch-case menu handling
 
 Random number generation (rand())
+Thankyou
 
+Th
 Functions for modular code
